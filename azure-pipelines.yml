@@ -34,7 +34,7 @@ steps:
 - task: UiPathRunJob@5
   inputs:
     orchestratorConnection: 'Azure_Test'
-    processName: 'Pipeline_Test'
+    processName: 'Pipeline_Intro'
     folderName: 'Prem'
     traceLevel: 'Verbose'
 - task: PublishBuildArtifacts@1
